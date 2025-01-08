@@ -15,6 +15,14 @@ st.markdown(
 )
 
 
+hide_github_icon = """
+#fa-github {
+  visibility: hidden;
+}
+"""
+st.markdown(hide_github_icon, unsafe_allow_html=True)
 
 
 st.header("Muhammad is the Best in all over the universes")
+#<FontAwesomeIcon icon="fab fa-github" />
+#<i class="fab fa-github"></i>
